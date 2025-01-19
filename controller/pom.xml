@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>ddd.sellticket1</groupId>
-    <artifactId>ddd-start</artifactId>
+    <artifactId>controller</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,19 +20,8 @@
     <dependencies>
         <dependency>
             <groupId>ddd.sellticket1</groupId>
-            <artifactId>controller</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>ddd.sellticket1</groupId>
-            <artifactId>infrastructure</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ddd.sellticket1</groupId>
-            <artifactId>domain</artifactId>
-            <version>${project.version}</version>
+            <artifactId>application</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

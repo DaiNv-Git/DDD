@@ -10,7 +10,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>ddd-start</module>
-        <module>ddd-start</module>
+        <module>controller</module>
+        <module>application</module>
+        <module>infrastructure</module>
+        <module>domain</module>
     </modules>
 
     <properties>
@@ -32,7 +35,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 </project>
